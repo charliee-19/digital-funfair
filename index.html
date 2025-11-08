@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Digital Playground</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #f9fafb;
+      color: #111;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 2rem;
+      font-weight: 700;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.5rem;
+      width: 90%;
+      max-width: 800px;
+    }
+
+    a.button {
+      background-color: white;
+      padding: 2rem 1rem;
+      border-radius: 1rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+      text-decoration: none;
+      color: #111;
+      font-size: 1.2rem;
+      font-weight: 500;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    a.button:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      margin-top: 3rem;
+      font-size: 0.9rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <h1>Digital Playground</h1>
+
+  <div class="grid">
+    <a href="/jumble/" class="button">Jumble Project</a>
+    <a href="#" class="button">Coming Soon</a>
+    <a href="#" class="button">Coming Soon</a>
+    <a href="#" class="button">Coming Soon</a>
+  </div>
+
+  <footer>
+    Made by Charlie · 2025
+  </footer>
+</body>
+</html>
