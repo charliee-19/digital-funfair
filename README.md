@@ -1,10 +1,10 @@
-# Digital Playground
+# Digital Funfair
 
-Welcome to **Digital Playground**, a collection of fun, interactive web experiments and mini-projects created by Charlie. Explore, play, and see what little surprises await you!
+Welcome to **Digital Funfair**, a collection of fun, interactive web experiments and mini-projects created by Charlie. Explore, play, and see what little surprises await you!
 
 ## Live Site
 
-Check it out here: [Digital Playground](https://<charliee-19>.github.io/<digital-playground>/)
+Check it out here: [Digital Playground](https://<charliee-19>.github.io/<digital-Funfair>/)
 
 ## Projects
 
